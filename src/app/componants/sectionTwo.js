@@ -15,7 +15,7 @@ export default function SectionTwo () {
                     <h1 className=" text-[#0079ac] bg-clip-text text-3xl font-extrabold font-custom tracking-wider sm:text-5xl">
                         About Gonzo
                     </h1>
-                    <p class="text-base sm:leading-relaxed md:text-2xl">
+                    <p class="text-base sm:leading-relaxed md:text-2xl text-black">
                         Gonzo is tired of watching everyone play hot potato with the endless derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu coins. The Inu$aposs have had their day. It$aposs time for the most recognizable daredevil in the world, Gonzo, to take reign as king of the internet.
                         Gonzo Token is here to make memecoins great again. Launched stealth with no presale, zero taxes, LP burnt, and contract renounced, $GONZO is a coin for the people, forever. Fueled by pure Gonzo madness, let $GONZO show you the way!
                     </p>
