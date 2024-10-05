@@ -2,7 +2,7 @@ import React from "react";
 
 export default function lastSection() {
   return (
-    <div className="grid lg:mt-20 border-t-4 border-double border-black place-items-center font-custom tracking-widest">
+    <div className="grid lg:mt-20 border-t-4 bg-white border-double border-black place-items-center font-custom tracking-widest">
       <div className=" mt-20  flex gap-4 text-[#0079ac]">
         {" "}
         <div>
