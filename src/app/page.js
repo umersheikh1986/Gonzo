@@ -9,7 +9,7 @@ import Footer from "./componants/footer";
 
 export default function Home() {
   return (
-    <div className=" w-full relative h-auto bg-center bg-fixed bg-contain no-repeat bg-no-repeat">
+    <div className=" w-full relative h-auto bg-white bg-center bg-fixed bg-contain no-repeat bg-no-repeat ">
       <div className="lg:mt-20">
         <Navbar />
         {/* section 1 */}
