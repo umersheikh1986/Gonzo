@@ -2,65 +2,65 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import gonzoToken from "../images/gonzoToken.png";
-// import { gonzoTokenAddress, gonzoABI } from "../lib/constants";
-// import { getContract, resolveMethod } from "thirdweb";
+import { gonzoTokenAddress, gonzoABI } from "../lib/constants";
+import { getContract, resolveMethod } from "thirdweb";
 import Navbar from "../componants/navbar";
-// import { createThirdwebClient } from "thirdweb";
-// import { fantomTestnet } from "thirdweb/chains";
-// import { useReadContract } from 'thirdweb/react';
+import { createThirdwebClient } from "thirdweb";
+import { fantomTestnet } from "thirdweb/chains";
+import { useReadContract } from "thirdweb/react";
 
-// import {
-//   // ThirdwebSDK,
-//   // useAddress,
-//   useContract,
-//   useContractRead,
-//   useContractWrite,
-// } from "@thirdweb-dev/react";
+import {
+  ThirdwebSDK,
+  useAddress,
+  useContract,
+  useContractRead,
+  useContractWrite,
+} from "@thirdweb-dev/react";
 
-// import client from "../lib/client";
+import client from "../lib/client";
 
 // const client = createThirdwebClient({
 //   clientId: "d75935c2db33dd391882dd2fb2474ceb",
 // });
-// const gonzo = getContract({
-//   client,
-//   address: gonzoTokenAddress,
-//   //   chain: fantomTestnet,
-// });
+const gonzo = getContract({
+  client,
+  address: gonzoTokenAddress,
+  chain: fantomTestnet,
+});
 
-// const { contract } = getContract({
-//   client,
-//   gonzoTokenAddress,
-//   //   chain: fantomTestnet,
-//   abi: gonzoABI,
-// });
+const { contract } = getContract({
+  client,
+  gonzoTokenAddress,
+  chain: fantomTestnet,
+  abi: gonzoABI,
+});
 export default function Trade() {
-  //   const { contract: GonzoToken } = useContract(gonzoTokenAddress, gonzoABI);
-  //   const [supply, setSupply] = useState(0);
-  //   const { supply2, supplyIsLoading } = useContractRead(
-  //     GonzoToken,
-  //     "totalSupply",
-  //     []
-  //   );
-  //   useEffect(() => {
-  //     async function fetchData() {
-  //       //    console.log("contract: ", contract);
-  //       //    const {data:supply, isloading: isSupplyLoading} = useReadContract ({ contract ,functionName: "totalSupply",args: []});
-  //       // //    const { supply, isLoading} =  useReadContract( {
-  //       // //         contract ,
-  //       // //         method: resolveMethod("totalSupply")
-  //       // //     });
-  //       // if(!isSupplyLoading){
-  //       console.log("supply :", supply2);
-  //       // }else{
-  //       //     console.log("supply :not supply");
+  const { contract: GonzoToken } = useContract(gonzoTokenAddress, gonzoABI);
+  const [supply, setSupply] = useState(0);
+  const { supply2, supplyIsLoading } = useContractRead(
+    GonzoToken,
+    "totalSupply",
+    []
+  );
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     //    console.log("contract: ", contract);
+  //     //    const {data:supply, isloading: isSupplyLoading} = useReadContract ({ contract ,functionName: "totalSupply",args: []});
+  //     //    const { supply, isLoading} =  useReadContract( {
+  //     //         contract ,
+  //     //         method: resolveMethod("totalSupply")
+  //     //     });
+  //     // if(!isSupplyLoading){
+  //     console.log("supply :", supply2);
+  //     // }else{
+  //     //     console.log("supply :not supply");
 
-  //       // }
+  //     // }
 
-  //       setSupply(supply2);
-  //     }
-  //     fetchData();
-  //   }, [supply2]);
+  //     setSupply(supply2);
+  //   }
+  //   fetchData();
+  // }, [supply2]);
 
   //   console.log(supply);
   return (
