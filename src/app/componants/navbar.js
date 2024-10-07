@@ -3,16 +3,16 @@ import { useState } from "react";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
 
-// import {
-//   ConnectButton,
-//   useActiveAccount,
-//   useActiveWallet,
-//   useConnect,
-// } from "thirdweb/react";
-// import { createWallet } from "thirdweb/wallets";
+import {
+  ConnectButton,
+  useActiveAccount,
+  useActiveWallet,
+  useConnect,
+} from "thirdweb/react";
+import { createWallet } from "thirdweb/wallets";
 // import { bscTestnet, ethereum, fantomTestnet, sepolia } from "thirdweb/chains";
 // import { createThirdwebClient } from "thirdweb";
-// import client from '../lib/client';
+import client from "../lib/client";
 // import dynamic from 'next/dynamic';
 
 // const client = createThirdwebClient({
@@ -20,22 +20,22 @@ import Link from "next/link";
 //     secretKey: "pombZa3yC3A4Fg9ru-JZQEVLafqnNlXtT02hNZwMGCzKkEHhuu8bnwaYB_foKOL9lawTodKxi24oaW4_3MzW3Q"
 // });
 
-//   const wallets = [
-//     createWallet("io.metamask"),
-//     createWallet("com.coinbase.wallet"),
-//     createWallet("me.rainbow"),
-//     createWallet("io.rabby"),
-//     createWallet("io.zerion.wallet"),
-//     createWallet("com.binance"),
-//     createWallet("com.trustwallet.app"),
-//     createWallet("com.safepal"),
-//     createWallet("com.kraken"),
-//   ];
+const wallets = [
+  createWallet("io.metamask"),
+  createWallet("com.coinbase.wallet"),
+  createWallet("me.rainbow"),
+  createWallet("io.rabby"),
+  createWallet("io.zerion.wallet"),
+  createWallet("com.binance"),
+  createWallet("com.trustwallet.app"),
+  createWallet("com.safepal"),
+  createWallet("com.kraken"),
+];
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   // const { connect, isConnecting, error } = useConnect();
-  // const [selectedWalletId, setSelectedWalletId] = useState();
+  const [selectedWalletId, setSelectedWalletId] = useState();
   // const account = useActiveAccount();
   // const connectedWallet = useActiveWallet();
   const toggleNavbar = () => {
@@ -173,7 +173,7 @@ export default function Navbar() {
               </ScrollLink>
             </li>
             <li>
-              <Link href="/" legacyBehavior>
+              <Link href="/trade" legacyBehavior>
                 <a className="block py-2 px-3 text-gray-600 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#0079ac] md:p-0 md:lighthover:text-[#0079ac] lighttext-white lighthover:bg-gray-700 lighthover:text-white md:lighthover:bg-transparent lightborder-gray-700">
                   Buy
                 </a>
