@@ -78,7 +78,11 @@ export default function Hero() {
                     </svg>
                   </a>
                   <a
+<<<<<<< HEAD
                     href="/"
+=======
+                    href="/trade"
+>>>>>>> cf71f19cfdcb24dd0ef59e40b32022aba911c94b
                     className="flex items-center px-6 py-3 text-white bg-[#f8b447] rounded-md hover:bg-[#a10d25] tracking-wide hover:text-white"
                   >
                     Buy Now

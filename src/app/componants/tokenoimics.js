@@ -2,7 +2,11 @@ import React from "react";
 
 function tokenommics() {
   return (
+<<<<<<< HEAD
     <div id="Tokenomics" className="grid lg:mt-20 border-t-4 border-double border-black place-items-center font-custom tracking-widest">
+=======
+    <div id="Tokenomics" className="grid lg:mt-20 bg-white border-t-4 border-double border-black place-items-center font-custom tracking-widest">
+>>>>>>> cf71f19cfdcb24dd0ef59e40b32022aba911c94b
       <div className=" mt-20 text-7xl text-[#0079ac]">TOKENOMICS</div>
       <div className=" grid grid-rows-1 area place-content-center my-10 items-center">
         {/* Creat wallet */}

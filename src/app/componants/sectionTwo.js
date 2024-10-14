@@ -1,7 +1,11 @@
 
 export default function SectionTwo () {
   return (
+<<<<<<< HEAD
     <div id="sectionTwo" class="w-full max-w-7xl px-4 mx-auto sm:px-8 mt-24 ">
+=======
+    <div id="sectionTwo" class="w-full bg-white max-w-7xl px-4 mx-auto sm:px-8 mt-24 ">
+>>>>>>> cf71f19cfdcb24dd0ef59e40b32022aba911c94b
         <blockquote class="relative grid items-center bg-white shadow-xl md:grid-cols-3 rounded-xl">     
             <img class="hidden object-cover w-full h-full rounded-l-xl md:block " style={{clipPath :" polygon(0 0%, 100% 0%, 86% 100%, 0% 100%"}} src="https://i.pinimg.com/564x/54/23/84/5423848a755f9ad8303485f1fbefcd40.jpg" />
             <article class="relative p-6 md:p-8 md:col-span-2">
@@ -15,7 +19,11 @@ export default function SectionTwo () {
                     <h1 className=" text-[#0079ac] bg-clip-text text-3xl font-extrabold font-custom tracking-wider sm:text-5xl">
                         About Gonzo
                     </h1>
+<<<<<<< HEAD
                     <p class="text-base sm:leading-relaxed md:text-2xl">
+=======
+                    <p class="text-base sm:leading-relaxed md:text-2xl text-black">
+>>>>>>> cf71f19cfdcb24dd0ef59e40b32022aba911c94b
                         Gonzo is tired of watching everyone play hot potato with the endless derivative ShibaCumGMElonKishuTurboAssFlokiMoon Inu coins. The Inu$aposs have had their day. It$aposs time for the most recognizable daredevil in the world, Gonzo, to take reign as king of the internet.
                         Gonzo Token is here to make memecoins great again. Launched stealth with no presale, zero taxes, LP burnt, and contract renounced, $GONZO is a coin for the people, forever. Fueled by pure Gonzo madness, let $GONZO show you the way!
                     </p>

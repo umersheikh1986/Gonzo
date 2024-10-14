@@ -3,7 +3,11 @@ export default function SectionThree() {
   return (
     <div
       id="sectionThree"
+<<<<<<< HEAD
       className="grid lg:mt-20 border-t-4 border-double border-black place-items-center font-custom tracking-widest -mb-72 pb-10"
+=======
+      className="grid lg:mt-20 bg-white border-t-4 border-double border-black place-items-center font-custom tracking-widest -mb-72 pb-10"
+>>>>>>> cf71f19cfdcb24dd0ef59e40b32022aba911c94b
     >
       <div className=" mt-20 text-7xl text-[#0079ac]">How to Buy!</div>
       <div className=" grid grid-rows-4 area place-content-center my-10 items-center">
