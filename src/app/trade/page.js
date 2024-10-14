@@ -66,7 +66,7 @@ export default function Trade() {
   return (
     <section>
       <Navbar />
-      <div className="flex justify-center items-center min-h-screen">
+      {/* <div className="flex justify-center items-center min-h-screen">
         <div className="max-w-[720px] mx-auto">
           <div className="block mb-4 mx-auto border-b border-slate-300 pb-2 max-w-[360px]">
             <a
@@ -90,7 +90,7 @@ export default function Trade() {
               height={140}
               alt=""
             />
-            <p className="text-center font-custom text-[#0079ac]">
+            <p className="text-center font-custom  text-[#0079ac]">
               <span>$Gonzo</span>
             </p>
 
@@ -116,6 +116,9 @@ export default function Trade() {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="flex justify-center items-center min-h-screen">
+        <h1 className="text-7xl"> Coming Soon</h1>
       </div>
     </section>
   );
