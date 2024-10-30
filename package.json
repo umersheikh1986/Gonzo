@@ -10,22 +10,21 @@
   },
   "dependencies": {
     "@thirdweb-dev/react": "^4.9.4",
-<<<<<<< HEAD
+
     "next": "14.2.14",
     "pino-pretty": "^11.2.2",
     "react": "^18",
-    "react-dom": "^18",
-    "react-scroll": "^1.9.0",
-=======
+
+  
+
     "@thirdweb-dev/sdk": "^4.0.99",
     "clsx": "^2.1.1",
-    "next": "14.2.14",
     "react": "^18",
     "react-dom": "^18",
     "react-scroll": "^1.9.0",
     "styled-components": "^6.1.13",
     "tailwind-merge": "^2.5.3",
->>>>>>> cf71f19cfdcb24dd0ef59e40b32022aba911c94b
+
     "thirdweb": "^5.61.0"
   },
   "devDependencies": {
